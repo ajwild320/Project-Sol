@@ -1,0 +1,79 @@
+Project Sol Notes:
+
+index.html file
+
+- Found icon package with most major planets in it. Use these for each page as per content type. i.e. earth icon for earth page.
+- Add links into certain parts of <p> content as project progresses 
+- fix the search bar on the home page and make it actually function (will be done during the JS part of the project)
+- With HTML in place for home page begin formatting in CSS stylesheet.
+- All images and icons have been placed within the images folder inside of the project 2 folder
+- refresh on creating and altering different types of forms.
+- HTML validated for Homepage at 7:40pm 10/20/2022 (No errors detected)
+
+guide.html file
+- All images and icons have been placed within the images folder inside of the project 2 folder
+- Needs a site navigation bar added at the top of the page (overlooked during conceptualization phase)
+- Might make images clickable to lead to linked content pages, for the time being sticking with clicking the header abover each image
+- need to alphabetize list of planets for ease of use
+- HTML validated for guide at 9:30pm 10/20/2022 (No errors detected)
+
+mercury.html file
+- All images and icons have been placed within the images folder inside of the project 2 folder
+- All necessary information sourced from ( https://solarsystem.nasa.gov/planets/mercury/overview/ )
+- link to nasa website added if user desires further information.
+- HTML validated at 10:12pm 10/20/2022
+
+contact.html
+- All images and icons have been placed within the images folder inside of the project 2 folder
+- forms successfully added for email and text input.
+- HTML validated at 10:51pm 10/20/2022
+
+CSS stylesheet implementation
+- updated icon on the top bar to show a different planet for each webpage accessed within the site.
+- organized the base layout of the currently created pages 
+- I intend to build upon and use the format i used on the mercury.html page on the other planet pages as well.
+- AS OF NOW MERCURY IS THE ONLY HTML PAGE ADDED --> the others will be added during further development.
+- I made the links to the future html pages for earth and venus, but will implement said pages further along
+  during development.
+- Had issues adding bullets to list, will need to follow up on this later...
+- added an image as background for header and footer instead of some bland color.
+- used an extensive number of classes to help organize my formatting. did this because i had multiple format overlap 
+  issues between lists. carried it through rest of project to ensure ease of modification.
+- ACTIVE LINK - https://webpages.charlotte.edu/awild/itis3135/WildAustinProject2/index.html 
+
+
+
+
+
+Second Sprint Updates and Changes
+
+index.html file
+- added functional carousel for introductory images(code to make it function located within script.js file)
+- implemented functionality of the search bar(used google search engine, searching for site specific pages within my site came with to many
+  complications.)
+
+guide.html
+- made images clickable(linked them to the HTML pages for their respective planets.)
+- added an accordion to this page. It has three sections so far(one for each planet that currently has an HTML page)
+- the accordion drops down to display quick facts about the planet it is underneath on the page.
+
+contact.html
+- added fun little transition to the astronaut image(he points with his other arm when you hover over his image.)
+- fixed email feature to function normally now.
+- removed text input section as it was no longer needed
+
+mercury.html, earth.html and venus.html
+- added unique icons as bullet points for the unordered lists on each page.
+- added link to each paragraph to nasa website for each planet.
+
+CSS stylesheet implementation
+- more planets were added, stylesheets updated and cleaned up to reduce redundancy as much as possible
+- NEED TO FORMAT PARAGRAPHS TO LOOK MORE APPEALING
+- realignment of accordion for more attractive viewing needs to be done.
+- base formatting for site solidly in place 
+- maybe spruce up contact page if time permits.
+
+script.js
+- implementation of accordion
+- implementation of carousel 
+- implementation of search bar functionality

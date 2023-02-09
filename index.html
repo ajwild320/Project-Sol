@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Austin Wild">
+    <title>Project Sol - Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/Sun.ico">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="head">
+        <h1 class="websiteHead">Project Sol</h1>
+
+        <form class = "searchBar" id="form" role="search">
+            <input type="search" id="query" name="q"
+             placeholder="Search..."
+             aria-label="Search through site content">
+            <button>Search</button>
+          </form>
+
+        <nav class="headerOptionsList">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us!</a></li>
+                <li><a href="guide.html">Solar Body Index</a></li>
+                <li><a href="funDailyFacts.html">Fun Daily Facts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="carousel-container">
+            <button class="carousel-btn left"><i class="fa-solid fa-chevron-left"></i></button>
+            <ul class="carousel">
+                <li class="carousel-item active"><img src="images/SolPlanetsInLine.png" alt="System1"></li>
+                <li class="carousel-item"><img src="images/PlanetsInLineNoCaptions.jpg" alt="System2"></li>
+                <li class="carousel-item"><img src="images/Solar_System_Alpha1.webp" alt="System3"></li>
+                <li class="carousel-item"><img src="images/Solar_System_Alpha2.jpg" alt="System4"></li>
+                <li class="carousel-item"><img src="images/Solar_System_Alpha3.jpg" alt="System5"></li>
+            </ul>
+            <button class="carousel-btn right"><i class="fa-solid fa-chevron-right"></i></button>
+            <div class="carousel-nav">
+                <div class="nav-item active"></div>
+                <div class="nav-item"></div>
+                <div class="nav-item"></div>
+                <div class="nav-item"></div>
+                <div class="nav-item"></div>
+            </div>
+        </div>
+
+        <h2 class="indexHeader">Who Are We?</h2>
+
+        <p class="paragraph">Welcome to Project Sol! The goal of the project is to educate anyone interested in our solar system. 
+            We have compiled information on many of the celestial bodies found within the Sol system. 
+            The entire purpose of this website is to convey the knowledge we have found to you! We hope that 
+            you will enjoy learning all about our solar system as you peruse the site. If you have any questions 
+            comments or concerns, please click the link at the top of the page that says 
+            <a href="contact.html" target="_blank">contact us</a>.  
+        </p>
+
+        <img class="pic1" src="images/PlanetaryOrbitsWithInformation.webp" alt="Outro Pic" width="1000" height="400">
+    </main>
+
+    <footer class="foot">
+        <p class='font-sm'>&copy;2022 Project Sol. All rights reserved.</p>    
+    </footer>
+
+</body>
+
+</html>
